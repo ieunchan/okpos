@@ -122,3 +122,8 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 SWAGGER_USE_COMPAT_RENDERERS = False
+
+# Swagger UI에서 로그인 링크 등 세션 인증 노출 비활성화
+SWAGGER_SETTINGS = {
+    'USE_SESSION_AUTH': False,
+}
