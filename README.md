@@ -25,7 +25,7 @@
 
 ## 테스트 (pytest)
 1) 실행
-   - `pytest`
+   - `pytest -q`
 
 ## 요구사항 대응
 - Django REST Framework: `ModelViewSet` + `WritableNestedModelSerializer` 기반 구현
